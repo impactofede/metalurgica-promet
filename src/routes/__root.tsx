@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Promet · Metalúrgica en La Plata desde 1960" },
+      { title: "Metalúrgica Promet | Corte, Plegado y Carpintería Metálica e" },
       {
         name: "description",
         content:
           "Metalúrgica Promet · La Plata. Fabricamos a medida para particulares y damos servicio mayorista a herreros y constructores: corte, plegado, soldadura y fabricación a plano. Presupuesto en menos de 24 hs.",
       },
       { name: "author", content: "Metalúrgica Promet" },
-      { property: "og:title", content: "Promet · Metalúrgica en La Plata desde 1960" },
+      { property: "og:title", content: "Metalúrgica Promet | Corte, Plegado y Carpintería Metálica e" },
       {
         property: "og:description",
         content:
@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "es_AR" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Metalúrgica Promet | Corte, Plegado y Carpintería Metálica e" },
+      { name: "description", content: "Corte y plegado de chapas, portones, escaleras y estructuras metálicas a medida en La Plata. Más de 60 años de experiencia. Presupuesto en el día. Calle 43 e/ 1" },
+      { property: "og:description", content: "Corte y plegado de chapas, portones, escaleras y estructuras metálicas a medida en La Plata. Más de 60 años de experiencia. Presupuesto en el día. Calle 43 e/ 1" },
+      { name: "twitter:description", content: "Corte y plegado de chapas, portones, escaleras y estructuras metálicas a medida en La Plata. Más de 60 años de experiencia. Presupuesto en el día. Calle 43 e/ 1" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f078b1d1-57fb-4249-8608-dd13f364079d/id-preview-b8f9eee7--9f133ea5-9dd3-4ae8-9644-10bb8d0f7581.lovable.app-1778285856575.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f078b1d1-57fb-4249-8608-dd13f364079d/id-preview-b8f9eee7--9f133ea5-9dd3-4ae8-9644-10bb8d0f7581.lovable.app-1778285856575.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
